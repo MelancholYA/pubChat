@@ -7,7 +7,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Sider from './Sider';
-import useAuth from '../../Hooks/useAuth';
 import { useState } from 'react';
 
 const Chat = (props) => {
