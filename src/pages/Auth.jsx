@@ -15,8 +15,6 @@ const Auth = () => {
 
 	const user = currUser();
 
-	console.log(user);
-
 	useEffect(() => {
 		if (user) {
 			history.push('/chat');
